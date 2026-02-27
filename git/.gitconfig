@@ -1,0 +1,7 @@
+[user]
+	name = Manas Joshi
+	email = manasjoshi241@gmail.com
+[init]
+	defaultBranch = main
+[alias]
+	pub = push -u origin HEAD

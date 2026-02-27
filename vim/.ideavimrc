@@ -1,0 +1,47 @@
+set laststatus=2
+set showmode
+
+Plug 'tpope/vim-surround'
+
+syntax on
+
+set relativenumber " Relative line numbers
+set number " Also show current absolute line
+set showcmd " Show (partial) command in status line.
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+" set nowrap
+set clipboard=unnamed
+
+let g:BASH_Ctrl_j = 'off'
+nnoremap <C-j> <Esc>
+inoremap <C-j> <Esc>
+vnoremap <C-j> <Esc>
+snoremap <C-j> <Esc>
+xnoremap <C-j> <Esc>
+cnoremap <C-j> <Esc>
+onoremap <C-j> <Esc>
+lnoremap <C-j> <Esc>
+tnoremap <C-j> <Esc>
+
+set highlightedyank
+
+nnoremap <S-Left> :action EditorLeftWithSelection<CR>
+nnoremap <S-Right> :action EditorRightWithSelection<CR>
+nnoremap <S-Up> :action EditorUpWithSelection<CR>
+nnoremap <S-Down> :action EditorDownWithSelection<CR>
+inoremap <S-Left> <C-O>:action EditorLeftWithSelection<CR>
+inoremap <S-Right> <C-O>:action EditorRightWithSelection<CR>
+inoremap <S-Up> <C-O>:action EditorUpWithSelection<CR>
+inoremap <S-Down> <C-O>:action EditorDownWithSelection<CR>
+vnoremap <S-Left> <C-O>:action EditorLeftWithSelection<CR>
+vnoremap <S-Right> <C-O>:action EditorRightWithSelection<CR>
+vnoremap <S-Up> <C-O>:action EditorUpWithSelection<CR>
+vnoremap <S-Down> <C-O>:action EditorDownWithSelection<CR>
+snoremap <S-Left> <C-O>:action EditorLeftWithSelection<CR>
+snoremap <S-Right> <C-O>:action EditorRightWithSelection<CR>
+snoremap <S-Up> <C-O>:action EditorUpWithSelection<CR>
+snoremap <S-Down> <C-O>:action EditorDownWithSelection<CR>
+

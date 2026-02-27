@@ -1,0 +1,37 @@
+" -------------------------------
+" ~/.vscodevimrc  (for VSCodeVim)
+" -------------------------------
+
+" Basics
+set number
+set relativenumber
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
+" Clipboard handled by VS Code; keep this for muscle memory
+set clipboard=unnamed
+
+" No arrow keys
+" nnoremap <up> <nop>
+" nnoremap <down> <nop>
+" inoremap <up> <nop>
+" inoremap <down> <nop>
+" inoremap <left> <nop>
+" inoremap <right> <nop>
+
+" Quick escape
+let mapleader=" "
+nnoremap <C-j> <Esc>
+inoremap <C-j> <Esc>
+vnoremap <C-j> <Esc>
+snoremap <C-j> <Esc>
+xnoremap <C-j> <Esc>
+cnoremap <C-j> <Esc>
+onoremap <C-j> <Esc>
+
+" (Remove: plugins, Coc/lightline functions, makeprg, colorscheme files, etc.)
+
+
