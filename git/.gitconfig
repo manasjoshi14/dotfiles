@@ -1,6 +1,6 @@
-[user]
-	name = Manas Joshi
-	email = manasjoshi241@gmail.com
+[include]
+	path = ~/.gitconfig.local
+
 [init]
 	defaultBranch = main
 [alias]
